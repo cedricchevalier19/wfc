@@ -1,6 +1,4 @@
-//
-// Created by cedric on 16/01/2025.
-//
+// Tile
 
 #ifndef TILE_H
 #define TILE_H
