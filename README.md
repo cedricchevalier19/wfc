@@ -11,6 +11,8 @@ values of a pixel.
 
 ## Algorithm
 
+A good presentation of the algorithm can be found [here](https://robertheaton.com/2018/12/17/wavefunction-collapse-algorithm/).
+
 ### Overview
 
 ```
@@ -91,6 +93,7 @@ it is found 3 times.
 ```
 it is found 6 time.
 
+Note that more complex definitions of tiles are possible, for example allowing geometrical symmetries (rotations, reflections).
 
 ### 2. Overlapping tiles
 
@@ -192,3 +195,16 @@ v
 y
 ```
 where `[*]` marks the pixels for which we have to update the entropy measurement.
+
+## Work to do
+
+### 1. Implement a serial version of the algorithm, using simple grids of `0` and `1`.
+
+### 2. Implement a parallel version of the algorithm, using Kokkos or OpenMP.
+
+In particular, for OpenMP, you should use the `task` API.
+
+### 3. Implement a version of the algorithm that uses a more complex grid, with more than two values.
+
+Experiment and comment on the performance of the algorithm.
+In particular, you should comment on the performance of the parallel version of the algorithm and its scalability.
