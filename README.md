@@ -200,11 +200,29 @@ where `[*]` marks the pixels for which we have to update the entropy measurement
 
 ### 1. Implement a serial version of the algorithm, using simple grids of `0` and `1`.
 
-### 2. Implement a parallel version of the algorithm, using Kokkos or OpenMP.
+### 2. Implement a parallel version of the algorithm, using Kokkos OR OpenMP.
 
-In particular, for OpenMP, you should use the `task` API.
+In particular, for OpenMP, you should use the explicit `task` API.
 
 ### 3. Implement a version of the algorithm that uses a more complex grid, with more than two values.
 
 Experiment and comment on the performance of the algorithm.
 In particular, you should comment on the performance of the parallel version of the algorithm and its scalability.
+
+### 4. Project Report
+
+After a short description of the project and your understanding, you will explain the strategy you employed to implement the project.
+In particular, issues that you might have met during the project development.
+At the end, we also expect a detailed performance analysis while varying input dataset, configuration etc.
+
+### 5. Presentation
+
+We will organize a project presentation on XXth YY, 2025.
+The slot will last 25min, including questions from the jury.
+
+## Evaluation
+
+You will be evaluated on:
+  - the project,
+  - the report,
+  - the presentation.
