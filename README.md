@@ -217,8 +217,10 @@ At the end, we also expect a detailed performance analysis while varying input d
 
 ### 5. Presentation
 
-We will organize a project presentation on XXth YY, 2025.
+We will organize a project presentation on **23th April, 2025**.
 The slot will last 25min, including questions from the jury.
+
+Projects and reports must be submitted **no later than 11.59pm on 17 April 2025**.
 
 ## Evaluation
 
